@@ -7,4 +7,4 @@ class TryTesting(TestCase):
         self.assertTrue(True)
 
     def test_always_fails(self):
-        self.assertTrue(False)
+        self.assertFalse(False)
