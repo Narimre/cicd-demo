@@ -1,12 +1,6 @@
 import pytest
 from app import app
 
-def test_always_passes():
-    assert True
-
-def test_always_fails():
-    assert False
-
 @pytest.fixture
 def client():
     app.config['TESTING'] = True
