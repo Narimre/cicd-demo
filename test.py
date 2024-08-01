@@ -2,6 +2,9 @@ import pytest
 from app import app
 
 
+def test_dummy():
+    pass
+
 @pytest.fixture
 def client():
     app.config['TESTING'] = True
